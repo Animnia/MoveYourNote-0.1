@@ -1,0 +1,45 @@
+body{
+    background-color: lightskyblue;
+}
+
+
+.f1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+
+#changebtn{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: black;
+}
+
+#writebtn{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: black;
+}
+
+.space{
+    height: 20px;
+}
+
+#An{
+    position: fixed; 
+    top: 70px;
+    /*bottom: 15px;*/
+    right: 15px; 
+    font-size: 15px;
+}
+
+#band{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50%; 
+}

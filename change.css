@@ -1,0 +1,73 @@
+body{
+    background-color: lightskyblue;
+}
+
+
+#quit{
+    width: 60px;
+    height: 30px;
+}
+
+.f1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.space{
+    height: 20px;
+}
+
+#in{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.spantext{
+    display: inline-block;
+    width: 40px;
+    font-size: 20px;
+}
+
+#sel1{
+    width: 60px;
+    height: 30px;
+}
+
+#sel2{
+    width: 60px;
+    height: 30px;
+}
+
+#selmode{
+    width: 80px;
+    height: 30px;
+}
+
+#sellevel{
+    width: 80px;
+    height: 30px;
+}
+
+#out{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#outtxt{
+    height: 500px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}

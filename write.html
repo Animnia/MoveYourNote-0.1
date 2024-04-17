@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教程</title>
+    <link rel="stylesheet" href="write.css">
+
+</head>
+<body>
+    <h1>教程</h1>
+    <h3>Animnia :  Apr 2024</h3>
+    <h3>给个star谢谢喵：https://GitHub.com/Animnia/MoveYourNote-0.1</h3>
+    <div>这是一个简单的程序，你可以输入想要移调的乐谱并立即得到结果，尤其对于一些乐器本调不是C调的演奏者来说，真是十分甚至⑨分有用啊！（喜</div>
+    <div>可能存在一些bug，如果遇到请指出。(๑•ᴗ•๑)♡</div>
+    <h4>1.输入语法</h4>
+    <div>你可以在输入框中以简谱的形式输入你想要移调的乐谱，输入的语法如下：</div>
+    <div>（1）输入1~7，代表do~si；在数字前添加"#"或"@"代表升号；在数字前添加"b"或"."代表降号；在此之前添加"+"或"-"代表后面的那个音升高一个八度或降低一个八度；不添加默认为以标准音C4（440Hz）即中音do开始的音区。</div>
+    <div>（2）音符与音符不必用空格分开，程序会忽略所有的其他字符。</div>
+    <div>（3）注意：请不要在一个数字前添加多个升降号(例如"##1")；
+        +,-号应放在#,@,b,. 之前(例如"#+2"是无效输入，正确输入应该是"+#2");</div>
+    <div>（4）添加升降号时，由于程序只能识别自然音阶，所以"#3", "#7", "@3", "@7", "b4", "b1", ".4", ".1"均为无效输入。</div>
+    <div>...</div>
+    <div>无效输入可能会导致未定义的输出结果。</div>
+    <div>...</div>
+    <div>如果乐谱中确实存在重升、重降记号，升mi，升si等变化音阶，你可以将其改为自然音阶再输入。（例如将重升do改为re，将升mi改为fa）</div>
+    <h4>2.输入示例</h4>
+    <div>假如有这样一段简谱：</div>
+    <div>#1(低八度)， 2， 3(高八度)，4， b5， 6， 7（高两个八度）</div>
+    <div>你可以输入"-#12+34b56++7"</div>
+    <div>也可以输入"-@1  2  +3  4  .5  6  ++7"</div>
+    <div>也可以输入"-#1，2，+3，4，b5，6，++7"</div>
+    <div>可见升降号的不同表示可以混合使用，分隔也不是必要的。</div>
+    <h4>3.选项</h4>
+    <div>选择原乐谱(乐器)的曲调和你想要得到的曲调，程序支持所有十二平均律上的曲调转换。</div>
+    <div>选择结果的表示方法确定输出结果的半音阶是"用#表示"还是"用b表示"。</div>
+    <div>如果原乐谱适用于本调更低的乐器，而你想得到适用于本调更高乐器的乐谱，请选择"由低到高"；反之选择"由高到低"。</div>
+    <div>...</div>
+    <div>例如：我有一份双簧管的谱(obon, C), 我想把它用于中音萨克斯的演奏(alto sax, Eb)，双簧管的音调比中音萨克斯高，而且我看到降号就很烦，于是我选择"从 C 到 Eb"，"从高到低"，"以#表示"，从而得到了正确的简谱。</div>
+    <div>...</div>
+    <h4>4.提示</h4>
+    <div>（1）"从高到低"并不会使某个音降低，而是会使这个音升高。因为想要奏出和高音乐器同样的音乐，低音乐器需要更高的音才能与高音乐器对应。</div>
+    <div>（2）乐器本调表</div>
+    <div>Piccolo C</div>
+    <div>Flute C</div>
+    <div>oboe C</div>
+    <div>oboe d'amore A</div>
+    <div>oboe da caccia F</div>
+    <div>heckelphone C</div>
+    <div>Cor Anglais F</div>
+    <div>Clarinet Bb</div>
+    <div>Bass Clarinet Bb</div>
+    <div>Bassoon C</div>
+    <div>Soprano Saxophone Bb</div>
+    <div>Alto Saxophone Eb</div>
+    <div>Tenor Saxophone Bb</div>
+    <div>Baritone Saxophone Eb</div>
+    <div>Trumpet C/Bb</div>
+    <div>Cornet Bb</div>
+    <div>Flugelhorn Bb</div>
+    <div>FrenchHorn F/Eb/Bb/A (Double)</div>
+    <div>Euphonium Bb in treble clef, C in bass staff</div>
+    <div>Baritone Bb</div>
+    <div>Tuba Bb</div>
+    <div>Trombone Eb/Bb/C</div>
+    <div>Harmonica C/G/F</div>
+    <div>Harp Cb(B)</div>
+    
+    
+</body>
+</html>
